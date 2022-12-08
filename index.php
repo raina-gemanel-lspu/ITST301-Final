@@ -54,7 +54,7 @@
           </li>
           <li><a href="services.php">Services</a></li>
           <li><a href="contact.php">Contact</a></li>
-          <li><a href="edit.php">Edit Details</a></li>
+          <li><a class="getstarted scrollto" href="login.php">LOGIN</a></li>
         </ul>
       </nav><!-- .navbar -->
 
@@ -75,7 +75,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-6 text-center">
-          <h2>I'm <strong>Raina Gemanel</strong> a Part-Time Photographer from Laguna, Philippines.</h2>
+          <h2>I'm <strong>Raina Gemanel</strong> A Part-Time Photographer from Laguna, Philippines.</h2>
           <br>
           <br>
           <p>Kindly send me a message for your inquiries.</p>

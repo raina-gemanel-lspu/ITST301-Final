@@ -133,6 +133,7 @@
             <p class="m-0">
               Aside from photography, I also have an experience in video or film making, which could be added into package. I also have an experience in graphics editing, so the invitations and tarpaulin could be added into the package also. 
             </p>
+            
           </div>
         </div>
 
