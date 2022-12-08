@@ -1,3 +1,10 @@
+<?php session_start(); /* Starts the session */
+
+if(!isset($_SESSION['UserData']['Username'])){
+        header("location:login.php");
+        exit;
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,6 +16,7 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
+ 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,7 +32,12 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-
+  <!-- =======================================================
+  * Template Name: PhotoFolio - v1.1.1
+  * Template URL: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body>
@@ -40,22 +53,23 @@
       </a>
 
       <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="index.php">Home</a></li>
-          <li><a href="about.php">About</a></li>
+      <ul>
+          <li><a href="index2.php" class="active">Home</a></li>
+          <li><a href="about2.php">About</a></li>
           <li class="dropdown"><a href="#"><span>Gallery</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
-              <li><a href="gallery.php">Nature</a></li>
-              <li><a href="gallery2.php">People</a></li>
-              <li><a href="gallery3.php">Architecture</a></li>
-              <li><a href="gallery4.php">Animals</a></li>
-              <li><a href="gallery5.php">Sports</a></li>
-              <li><a href="gallery6.php">Travel</a></li>
+              <li><a href="gallerys.php">Nature</a></li>
+              <li><a href="gallery2s.php">People</a></li>
+              <li><a href="gallery3s.php">Architecture</a></li>
+              <li><a href="gallery4s.php">Animals</a></li>
+              <li><a href="gallery5s.php">Sports</a></li>
+              <li><a href="gallery6s.php">Travel</a></li>
               
             </ul>
           </li>
-          <li><a href="services.php">Services</a></li>
-          <li><a href="contact.php" class="active">Contact</a></li>
+          <li><a href="services2.php">Services</a></li>
+          <li><a href="contact2.php">Contact</a></li>
+          <li><a class="getstarted scrollto" href="logout.php">LOGOUT</a></li>
         </ul>
       </nav><!-- .navbar -->
 
@@ -78,85 +92,65 @@
       <div class="container position-relative">
         <div class="row d-flex justify-content-center">
           <div class="col-lg-6 text-center">
-            <h2>Contact</h2>
+            <h2>About</h2>
             <br>
             <br>
-            <p>Email us with any questions or inquiries or call us. We would be happy to answer your questions and set up a meeting with you. Rai Photography will try its best to help you achieve your dream photoshoot.</p>
+            <p>A third year Bachelor of Science in Information Technology student from <br>Laguna State Polytechnic University. Currently taking the major <br>in Web and Mobile Application Development but also <br>a passionate and part-time Photographer.</p>
+
+            
 
           </div>
         </div>
       </div>
     </div><!-- End Page Header -->
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
       <div class="container">
 
         <div class="row gy-4 justify-content-center">
-
-          <div class="col-lg-3">
-            <div class="info-item d-flex">
-              <i class="bi bi-geo-alt flex-shrink-0"></i>
-              <div>
-                <h4>Location:</h4>
-                <p>#475 Valenzuela Street, Famy, Laguna</p>
+          <div class="col-lg-4">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-5 content">
+            <h2>Part-Time Photographer from Laguna, Philippines</h2>
+            <p class="fst-italic py-3">
+              Hi everyone, I'm Raina V. Gemanel a part-time photographer from Famy, Laguna, Philippines.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>10 July 2001</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+639674211762</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Famy, Laguna</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>21</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Undergraduate</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>rainagemanel23@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                </ul>
               </div>
             </div>
-          </div><!-- End Info Item -->
-
-          <div class="col-lg-3">
-            <div class="info-item d-flex">
-              <i class="bi bi-envelope flex-shrink-0"></i>
-              <div>
-                <h4>Email:</h4>
-                <p>rainagemanel23@gmail.com</p>
-              </div>
-            </div>
-          </div><!-- End Info Item -->
-
-          <div class="col-lg-3">
-            <div class="info-item d-flex">
-              <i class="bi bi-phone flex-shrink-0"></i>
-              <div>
-                <h4>Call:</h4>
-                <p>+639674211762</p>
-              </div>
-            </div>
-          </div><!-- End Info Item -->
-
+            <p class="py-3">
+              Even though I'm currently in college, I assure my clients that I am responsible when it comes to them. I already accepted few projects that I could say an experience when it comes to this field.
+            Aside from that I am also kind and easy to have a conversation with, I always consider the preference of my clients and also their requests.</p>
+            <p class="m-0">
+              Aside from photography, I also have an experience in video or film making, which could be added into package. I also have an experience in graphics editing, so the invitations and tarpaulin could be added into the package also. 
+            </p>
+            <br>
+            <h4>Edit Text Details</h4>
+          <i class="bi bi-pencil-square fs-3"></i>
+          </div>
         </div>
-
-        <div class="row justify-content-center mt-4">
-
-          <div class="col-lg-9">
-            <form action="mail.php" method="post" class="php-email-form" autocomplete="off">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><input type="submit" value="Send Message"></div>
-            </form>
-          </div><!-- End Contact Form -->
-
-        </div>
-
+        
       </div>
-    </section><!-- End Contact Section -->
+    </section><!-- End About Section -->
+
+    
 
   </main><!-- End #main -->
 

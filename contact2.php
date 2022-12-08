@@ -1,3 +1,10 @@
+<?php session_start(); /* Starts the session */
+
+if(!isset($_SESSION['UserData']['Username'])){
+        header("location:login.php");
+        exit;
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,7 +31,12 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-
+  <!-- =======================================================
+  * Template Name: PhotoFolio - v1.1.1
+  * Template URL: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body>
@@ -40,22 +52,23 @@
       </a>
 
       <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="index.php">Home</a></li>
-          <li><a href="about.php">About</a></li>
+      <ul>
+          <li><a href="index2.php" class="active">Home</a></li>
+          <li><a href="about2.php">About</a></li>
           <li class="dropdown"><a href="#"><span>Gallery</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
-              <li><a href="gallery.php">Nature</a></li>
-              <li><a href="gallery2.php">People</a></li>
-              <li><a href="gallery3.php">Architecture</a></li>
-              <li><a href="gallery4.php">Animals</a></li>
-              <li><a href="gallery5.php">Sports</a></li>
-              <li><a href="gallery6.php">Travel</a></li>
+              <li><a href="gallerys.php">Nature</a></li>
+              <li><a href="gallery2s.php">People</a></li>
+              <li><a href="gallery3s.php">Architecture</a></li>
+              <li><a href="gallery4s.php">Animals</a></li>
+              <li><a href="gallery5s.php">Sports</a></li>
+              <li><a href="gallery6s.php">Travel</a></li>
               
             </ul>
           </li>
-          <li><a href="services.php">Services</a></li>
-          <li><a href="contact.php" class="active">Contact</a></li>
+          <li><a href="services2.php">Services</a></li>
+          <li><a href="contact2.php">Contact</a></li>
+          <li><a class="getstarted scrollto" href="logout.php">LOGOUT</a></li>
         </ul>
       </nav><!-- .navbar -->
 
@@ -129,7 +142,7 @@
         <div class="row justify-content-center mt-4">
 
           <div class="col-lg-9">
-            <form action="mail.php" method="post" class="php-email-form" autocomplete="off">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -149,7 +162,7 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><input type="submit" value="Send Message"></div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
           </div><!-- End Contact Form -->
 
