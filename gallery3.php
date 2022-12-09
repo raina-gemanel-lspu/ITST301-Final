@@ -113,7 +113,7 @@
             <div class="gallery-item h-100">
               <img src="assets/img/gallery/gallery-14.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-4.jpg" title="Gallery 4" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="assets/img/gallery/gallery-14.jpg" title="Gallery 4" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
@@ -122,7 +122,7 @@
             <div class="gallery-item h-100">
               <img src="assets/img/gallery/gallery-26.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-5.jpg" title="Gallery 5" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="assets/img/gallery/gallery-26.jpg" title="Gallery 5" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
@@ -131,7 +131,7 @@
             <div class="gallery-item h-100">
               <img src="assets/img/gallery/gallery-27.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-6.jpg" title="Gallery 6" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="assets/img/gallery/gallery-27.jpg" title="Gallery 6" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
@@ -140,7 +140,7 @@
             <div class="gallery-item h-100">
               <img src="assets/img/gallery/gallery-28.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-7.jpg" title="Gallery 7" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="assets/img/gallery/gallery-28.jpg" title="Gallery 7" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
@@ -149,7 +149,7 @@
             <div class="gallery-item h-100">
               <img src="assets/img/gallery/gallery-30.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-8.jpg" title="Gallery 8" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="assets/img/gallery/gallery-30.jpg" title="Gallery 8" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
@@ -158,7 +158,7 @@
             <div class="gallery-item h-100">
               <img src="assets/img/gallery/gallery-31.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-9.jpg" title="Gallery 9" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="assets/img/gallery/gallery-31.jpg" title="Gallery 9" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
@@ -167,7 +167,7 @@
             <div class="gallery-item h-100">
               <img src="assets/img/gallery/gallery-32.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-10.jpg" title="Gallery 10" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="assets/img/gallery/gallery-32.jpg" title="Gallery 10" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>

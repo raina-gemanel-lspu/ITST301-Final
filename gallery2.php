@@ -212,7 +212,7 @@
             <div class="gallery-item h-100">
               <img src="assets/img/gallery/gallery-21.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-14.jpg" title="Gallery 14" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="assets/img/gallery/gallery-21.jpg" title="Gallery 14" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
@@ -221,7 +221,7 @@
             <div class="gallery-item h-100">
               <img src="assets/img/gallery/gallery-24.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-15.jpg" title="Gallery 15" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="assets/img/gallery/gallery-24.jpg" title="Gallery 15" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
@@ -230,7 +230,7 @@
             <div class="gallery-item h-100">
               <img src="assets/img/gallery/gallery-25.jpg" class="img-fluid" alt="">
               <div class="gallery-links d-flex align-items-center justify-content-center">
-                <a href="assets/img/gallery/gallery-16.jpg" title="Gallery 16" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
+                <a href="assets/img/gallery/gallery-25.jpg" title="Gallery 16" class="glightbox preview-link"><i class="bi bi-arrows-angle-expand"></i></a>
                 <a href="gallery-single.php" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
